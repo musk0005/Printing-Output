@@ -18,7 +18,7 @@ let pqr = a==b;
 let stw = a!=b;
 let uxi = a>b;
 let wyx = a<b;
-let hyn = !a&&!b;
+let hyn = !a&&!c;
 let iop = !a||!c;
 
  input = 'let a = 3;' + "\n";
