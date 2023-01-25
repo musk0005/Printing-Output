@@ -16,6 +16,10 @@ let jkl = a/=b;
 let mno = a%=b;
 let pqr = a==b;
 let stw = a!=b;
+let uxi = a>b;
+let wyx = a<b;
+let hyn = !a&&!b;
+let iop = !a||!c;
 
  input = 'let a = 3;' + "\n";
  input += 'let b = 5;' + "\n";
@@ -33,7 +37,11 @@ let stw = a!=b;
         +'(a /= b) = ' +jkl +"\n" 
         +'(a %= b) = ' +mno +"\n" 
         +'(a == b) = ' +pqr +"\n" 
-        +'(a != b) = ' +stw);
+        +'(a != b) = ' +stw) + "\n"
+        +'(a > b ) = ' +uxi) + "\n"
+        +'(a < b ) = ' +wyx) + "\n"
+        +'(!a && !c) = ' +hyn) + "\n"
+        +'(!a || !c) = ' +iop) + "\n"
 
 
 //Task 2
